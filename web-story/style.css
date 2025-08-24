@@ -88,3 +88,202 @@ header nav ul a{
     border: 1px solid #6246EA;
 }
 /*________________________________main_____________________________________________________*/
+main{
+    height: 900px;
+    background: #EFF0F3;
+}
+.dasteen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 814px;
+}
+.dasteen-text{
+    width: 664px;
+    height: 345px;
+    margin: 271px 116px 284px 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dasteen-text h1{
+    width: 617px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.dasteen-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.dasteen-p img{
+    width: 3px;
+    height: 56px;
+    margin-right: 12px;
+}
+.blog{
+    width: 652px;
+    height: 50px;
+    color:  #9A9494;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.dasteen-button{
+    width: 609px;
+    height: 67px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+input[type="email"] {
+    width: 444px;
+    height: 67px;
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #FFFFFE;
+    color:  #C0C0C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.subscribe{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:  #6246EA;
+    color:  #FFFFFE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe:hover{
+    color: #232323;
+}
+.dasteen-img{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+.dasteen-img img{
+    width: 434.277px;
+    height: 363.368px;
+    flex-shrink: 0;
+}
+/*____________________________category-section_____________________________________________________________*/
+.category-section{
+    height: 500px;
+    flex-shrink: 0;
+    background-color: #EFF0F3;
+    border: 1px solid #EFF0F3;
+}
+.category{
+    height: 365px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    gap: 50px;
+}
+.category-text{
+    height: 35px;
+    padding: 2px 0 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-text p:nth-child(1){
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 800px;
+}
+.category-text p:nth-child(2){
+    color: #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 12px;
+}
+.category-text svg{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+}
+.category-cards{
+    display: flex;
+    height: 280px;
+    gap: 37px;
+    margin-top: 50px;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:  #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.card:hover{
+    border-radius: 8px;
+    background:  #6246EA;
+}
+.card-svg {
+    width: 114px;
+    height: 120px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 65px 115px 95px 30px;
+    gap: 30px;
+}
+.card-svg p{
+    color: #232323;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.card-svg svg{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 7.458px;
+    background:  #FFFFFE;
+}
+

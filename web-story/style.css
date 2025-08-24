@@ -286,4 +286,302 @@ input[type="email"] {
     border-radius: 7.458px;
     background:  #FFFFFE;
 }
+/*_______________________section class="featured "___________________________________________________________________*/
+.featured{
+    height: 2504px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFE;
+}
+.all{
+    width: 1250px;
+    height: 2344px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.featured-text{
+    display: flex;
+    width: 1252px;
+    height: 490px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0 3px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.text p:nth-child(1){
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 904px;
+}
+.text p:nth-child(2){
+    color:  #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text svg{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+.featured-cards{
+    display: flex;
+    width: 1250px;
+    height: 425px;
+    gap: 16px;
+    margin-top: 30px;
+}
 
+.featured-card{
+    display: flex;
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background:  #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.featured-card div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.featured-card-img{
+    width: 260px;
+    height: 198px;
+    border-radius: 12.599px;
+    background: lightgray 50% / cover no-repeat;
+}
+.featured-card-p{
+    width: 260px;
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.photo{
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.photo-img{
+    width: 57px;
+    height: 57px;
+    border-radius: 57px;
+    background:  lightgray 50% / cover no-repeat;
+}
+.info{
+    width: 184px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4.2px;
+    margin-top:5.9px ;
+    margin-bottom:5.9px ;
+}
+.info p:nth-child(1){
+    color: #2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.info p:nth-child(2){
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.featured-card-p-css{
+    width: 260px;
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+.featured-card-p-toggle{
+    width: 260px;
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.featured-card-p-react{
+    width: 260px;
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+/*__________________div class="text-css"_________________________________________________________________*/
+.text-css{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0 3px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.text-css p:nth-child(1){
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 1043px;
+}
+.text-css p:nth-child(2){
+    color:  #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text-css svg{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+/*__________________________________text-javascript_______________________________________________________________________________*/
+.text-javascript{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0 3px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.text-javascript p:nth-child(1){
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 975px;
+}
+.text-javascript p:nth-child(2){
+    color:  #2B2C34;
+    text-align: right;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text-javascript svg{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+.text-react{
+    display: flex;
+    width: 1252px;
+    height: 35px;
+    padding: 2px 0 3px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.text-react p:nth-child(1){
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 990px;
+}
+.text-react p:nth-child(2){
+    color:  #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.text-react svg{
+    width: 6px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 12px;
+}
+/*_____________________________div class="article"_____________________________________________*/
+.article-button{
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:  #6246EA;
+    color: #FFFFFE;
+    font-family: "Plus Jakarta Sans.", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.article-button:hover{
+    color: #232323;
+}
